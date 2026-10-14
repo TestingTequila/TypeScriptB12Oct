@@ -1,0 +1,35 @@
+Variables: 
+
+Comment in TS: 
+
+Use of Comment:
+To explain the code
+To stop executing certain portion of the code
+
+Single line comment --> //
+Multiline comment   --> /* .......... */ 
+
+data types in TypeScript
+
+number --> non-decimal & decimal 
+string --> store multiple characters
+Boolean--> true/false
+any    --> any value
+Enum   --> store sequence of constant values 
+
+Steps to run your typescript code
+
+trans compile your typescript code into javascript file(ensure to save) --> tsc nameOfTheFile.ts
+2. create a html file       
+<html>
+<script src= "nameOfTheFile.ts">
+</script>
+</html>
+3. Go to the folder where we created these files 
+4. Open the browser file
+5. Right click on the browser --> Select inspect option
+6. Go to console tab ---Result or output is displayed
+   
+
+
+
