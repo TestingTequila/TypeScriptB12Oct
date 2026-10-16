@@ -29,6 +29,12 @@ trans compile your typescript code into javascript file(ensure to save) --> tsc 
 4. Open the browser file
 5. Right click on the browser --> Select inspect option
 6. Go to console tab ---Result or output is displayed
+
+We have two options for storing <value>
+1. Variables
+2. Array
+-> when we have to store single value, we prefer Variables
+-> when we have to sore multiple values of similar data type, we prefer array
    
 
 
