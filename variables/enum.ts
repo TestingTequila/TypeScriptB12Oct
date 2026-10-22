@@ -7,3 +7,5 @@ console.log(weekday[0]); // Value
 console.log(weekday.Monday); // index --0 
 
 
+
+
