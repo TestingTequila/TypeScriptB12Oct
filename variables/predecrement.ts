@@ -14,3 +14,4 @@ var c : number = -3;
 var d: number = --c;
 console.log(c);  //-4
 console.log(d);  //-4
+
