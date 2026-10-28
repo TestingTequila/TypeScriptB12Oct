@@ -88,7 +88,32 @@ else
 }
 
 
-   
+====================== Class and Objects =================================   
+
+A class is a Template
+Every copy of the class is known as its object 
+
+Object Structure:
+
+var product = {
+    id: 12345,
+    name: "Iphone",
+    color: "White"
+}
+
+
+Students: fName, lName, gender, age
+Object :   Students stud= new Students();
+stud.fname;
+stud.lName;
 
 
 
+
+statements: to make decisions
+loops: while, for loop, advanced for loop[for each, for in ]
+
+for(var x :arrayName) //Jason, Roger, Wael, Jay, Kerrie, Rose 
+{
+    system.out.println(x);
+}
