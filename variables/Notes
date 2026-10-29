@@ -117,3 +117,29 @@ for(var x :arrayName) //Jason, Roger, Wael, Jay, Kerrie, Rose
 {
     system.out.println(x);
 }
+
+==========================Loops============================================
+
+//Loops
+  //while loop
+  //for loop
+  //for in loop
+
+  variable;
+  while(condition)
+  {
+      this part of code will execute only if condition is true;
+      Increment/Decrement operator;
+  }
+
+
+  for(variable;condition;Increment/Decrement operator)
+  {
+      this part of code will execute only if condition is true;
+  }
+
+
+  //for loop --> When we know the end of the loop 
+  //while loop ---> not sure when the end will be reached 
+
+  //12,34,5,6,8,32,54
