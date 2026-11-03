@@ -38,3 +38,19 @@ for(var key in student)
 {
     console.log(key + ": " + student[key]);
 }
+
+
+console.log("=======Calculate the total marks of a student======")
+
+var marks = {
+    Mathematics: 85,
+    English: 70,
+    Science : 92
+};
+
+var total: number =0;
+
+for(var subject in marks)
+{
+    
+}

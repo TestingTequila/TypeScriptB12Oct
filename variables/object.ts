@@ -34,3 +34,6 @@ console.log(product.productModel);
 console.log(product.isExtendable);
 console.log(product.price);
 
+
+//De-Structuring Objects
+
