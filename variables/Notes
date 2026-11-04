@@ -169,3 +169,5 @@ function functionName(var1:number, var2:number, var3:String):return
        return var3;
 }
 
+//1. functions as parameters within a function 
+

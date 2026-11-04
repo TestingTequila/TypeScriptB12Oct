@@ -1,4 +1,4 @@
-//1. function without parameters and without retrun type
+//1. function without parameters and without retun type
 function display()
 {
        console.log("Hello Everyone...!");
