@@ -143,3 +143,29 @@ for(var x :arrayName) //Jason, Roger, Wael, Jay, Kerrie, Rose
   //while loop ---> not sure when the end will be reached 
 
   //12,34,5,6,8,32,54
+
+Functions
+//1. function without parameters and without retrun type
+function functionName()
+{
+        does not return anything;
+}
+
+//2. function with parameters and without retrun type
+function functionName(var1:number, var2:number, var3:retrun)
+{
+       does not return anything
+}
+
+//3. function without parameters and with retrun type
+function functionName():return
+{
+       will retrun something
+}
+
+//4. function with parameters and with retrun type
+function functionName(var1:number, var2:number, var3:String):return
+{
+       return var3;
+}
+

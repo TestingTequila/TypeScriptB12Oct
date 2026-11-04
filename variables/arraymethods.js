@@ -11,5 +11,12 @@ console.log("====================push========================");
 levels.push(100, 200, 300);
 console.log(levels.toString());
 console.log("====================pop========================");
-console.log(levels.pop());
+console.log(levels.pop()); //300
 console.log(levels.toString());
+function add(num1, num2) {
+    return num1 + num2;
+}
+function calculate(fun) {
+    console.log(fun);
+}
+calculate(add(12, 4));
