@@ -1,5 +1,5 @@
 "use strict";
-//1. function without parameters and without retrun type
+//1. function without parameters and without retun type
 function display() {
     console.log("Hello Everyone...!");
 }
@@ -61,3 +61,31 @@ function displayMessageTwo(id, name, isPresent, role = "Student") {
 }
 displayMessageTwo(6543, "Kerrie", false);
 displayMessageTwo(6543, "Kerrie", false, "Admin");
+console.log("=============================");
+function add(num1, num2) {
+    return num1 + num2;
+}
+function calculate(fun) {
+    console.log(fun);
+}
+calculate(add(12, 38));
+console.log("=======CALCULATOR=============");
+function calculator() {
+    function subtract(num1, num2) {
+        return num1 - num2;
+    }
+    return subtract;
+}
+var sub = calculator();
+console.log(sub(20, 5));
+console.log(calculator()(20, 5));
+console.log("=====Anonymous Functions===================");
+var hello = function (name) {
+    return "Hello1 " + name;
+};
+console.log(hello("Wael"));
+console.log("======Anonymous Example 2=======");
+var sum = function (num1, num2) {
+    return num1 + num2;
+};
+console.log(sum(30, 45));

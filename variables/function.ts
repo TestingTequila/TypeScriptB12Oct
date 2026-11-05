@@ -88,3 +88,50 @@ function displayMessageTwo(id:number, name:string, isPresent:boolean, role:Strin
 
 displayMessageTwo(6543, "Kerrie", false);
 displayMessageTwo(6543, "Kerrie", false, "Admin");
+
+console.log("=============================");
+
+function add(num1:number, num2: number):number
+{
+       return num1+num2;
+}
+
+function calculate(fun: any):void
+{
+    console.log(fun);
+}
+
+calculate(add(12,38));
+
+console.log("=======CALCULATOR=============");
+function calculator():any
+{
+   function subtract(num1: number, num2: number):number
+   {
+       return num1-num2;
+   }
+
+   return subtract;
+}
+
+var sub =calculator();
+console.log(sub(20, 5));
+console.log(calculator()(20,5));
+
+
+console.log("=====Anonymous Functions===================");
+
+var hello= function(name:string):string
+{
+       return "Hello1 " + name;
+}
+
+console.log(hello("Wael"));
+
+console.log("======Anonymous Example 2=======");
+
+var sum = function(num1:number, num2: number):number
+{
+       return num1+num2;
+}
+console.log(sum(30, 45));
