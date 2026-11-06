@@ -171,3 +171,18 @@ function functionName(var1:number, var2:number, var3:String):return
 
 //1. functions as parameters within a function 
 
+// Function Overloading 
+    //methods with same name and differernt signatures
+       //by chaging the data type of parameters
+       //by changing the count of parameters
+       //by chaging the order of parameters 
+      
+
+// Rest Params 
+
+// Arrow Functions: are a shortcut to use anonymous functions
+
+var nameOfVariable = (parameter/s):returnTYpe => {how to use parameter/s};
+
+
+
