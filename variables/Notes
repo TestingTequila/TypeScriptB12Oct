@@ -185,4 +185,14 @@ function functionName(var1:number, var2:number, var3:String):return
 var nameOfVariable = (parameter/s):returnTYpe => {how to use parameter/s};
 
 
+=======Variable Prefixes ===============================
 
+var
+let
+const
+declare 
+
+
+let x: number =10;
+
+A variable declared with let is acccesible only inside the block{} where it is declared 
