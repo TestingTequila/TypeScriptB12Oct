@@ -196,3 +196,29 @@ declare
 let x: number =10;
 
 A variable declared with let is acccesible only inside the block{} where it is declared 
+==================================================
+
+EmployeeID
+EmployeeName
+Email
+Department
+Salary 
+
+A Interface defines a structure or a contract that an object should follow 
+=> An interface tells us what properties and Methods an object should have, but it doesn't generally define 
+   how those methods work 
+
+
+   interface NameOfInterface{
+    variable1: dataType;
+    variable2: dataType;
+    variable3:dataType;
+    .
+    .
+    .
+    variablen: dataType;
+    methods(); returnType;
+
+   }
+
+   Optional Properties

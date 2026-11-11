@@ -2,7 +2,7 @@
             //only want to tell typescript about its type.
 
 
-declare const browserName: String;
+declare const browserName: any;
 
 const applicationName : String = "Amazon";
 
