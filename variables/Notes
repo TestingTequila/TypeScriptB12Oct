@@ -222,3 +222,18 @@ A Interface defines a structure or a contract that an object should follow
    }
 
    Optional Properties
+
+
+   ===============================================
+   Class and Object 
+
+   Class is a template and every copy of that template is known as its object 
+
+   Passenger 
+     firstName
+     lastName
+     frequentFlyer 
+
+     -create a class
+     -create object
+     -initialize properties

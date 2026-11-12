@@ -50,3 +50,43 @@ var student1 = {
     age: 23
 };
 console.log(student1.studentID + ": " + student1.studentName + ": " + student1.email + ": " + student1.age + ": " + student1.section);
+class Passenger {
+    firstName;
+    lastName;
+    frequentFlyer;
+    constructor(firstName, lastName, frequentFlyer) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.frequentFlyer = frequentFlyer;
+    }
+    display() {
+        console.log(this.firstName + ", " + this.lastName + ", " + this.frequentFlyer);
+    }
+}
+var passenger1 = new Passenger("Wael", "Mark", 20);
+passenger1.display();
+var passenger2 = new Passenger("Justin", "Roger", 30);
+passenger2.display();
+var passenger3 = new Passenger("Kerrie", "Wright", 45);
+passenger3.display();
+console.log("=============================================");
+for (let item in passenger1) {
+    //console.log(item);
+    console.log(item + ": " + passenger1[item]);
+}
+console.log("==================FLIGHT===========================");
+class Flight {
+    flightNumber;
+    from;
+    to;
+    constructor(flightNumber, from, to) {
+        this.flightNumber = flightNumber;
+        this.from = from;
+        this.to = to;
+    }
+    display() {
+        console.log(this.flightNumber + ", " + this.from + ", " + this.to);
+    }
+}
+var flight1 = new Flight(5436, "New York", "New Jersey");
+flight1.display();
