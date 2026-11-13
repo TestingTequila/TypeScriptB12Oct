@@ -24,3 +24,5 @@ class Plane implements IAeroPlane{
 
 var plane =new Plane(54678, "Denver", "New York");
 plane.displayFlightDetails();
+
+
